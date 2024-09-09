@@ -1,0 +1,65 @@
+.name {
+  padding-left: 20px;
+  opacity: 70%;
+  font-family: inter;
+  width: 150px;
+  font-size: 50px;
+  font-weight: 700;
+  position: absolute;
+  background-color: transparent;
+  color: white;
+  bottom: 20px;
+  left: 10px;
+  border-bottom-left-radius: 50px;
+}
+
+.slideshow {
+  width: 1000px;
+  position: relative;
+}
+
+.mySlides {
+  height: 500px;
+  width: 1000px;
+  display: none;
+}
+.right_image {
+  transform: scaleX(-1);
+}
+.left_image {
+}
+
+.left-bttn:hover,
+.right-bttn:hover {
+  opacity: 40%;
+}
+.left-bttn {
+  transition: opacity 0.25s ease-in;
+  padding: 0;
+  position: absolute;
+  background-color: black;
+  opacity: 20%;
+  height: 100%;
+  width: 48px;
+  left: 0px;
+  border: none;
+  top: 0;
+}
+.right-bttn {
+  transition: opacity 0.25s ease-in-out;
+  padding: 0;
+  background-color: black;
+  opacity: 20%;
+  position: absolute;
+  right: 0px;
+  border: none;
+  top: 0;
+  height: 100%;
+  width: 48px;
+}
+.imges {
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
