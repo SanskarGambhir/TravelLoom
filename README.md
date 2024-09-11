@@ -6,6 +6,9 @@ Welcome to TravelLoom, a sleek and responsive travel booking website built using
 
 TravelLoom is a frontend-only project designed to simulate the experience of a travel booking website. The focus of this project is on structure and styling, making use of modern CSS techniques and JavaScript to enhance user interaction.
 
+![Screenshot 2024-09-11 213937](https://github.com/user-attachments/assets/3967c847-e999-4de1-82af-1fcdc0f99220)
+
+
 🌟 Key Features:
 
 A vibrant and visually appealing design.
